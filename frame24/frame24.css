@@ -1,0 +1,38 @@
+body{
+    height: 600px;
+    width: 360px;
+    color: white;
+    background-color: rgb(68, 67, 67)
+    
+}
+
+#pointBox{
+    background-color: #555555;
+    border-radius: 4px;
+}
+.custom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size : smaller;
+}
+.custom-bullet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-bullet1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.progress-bar{
+    height: 5px;
+    background-color: white;
+}
+.fa-circle{
+    width: 16px; height: 16px;
+}
+.fs12px{
+    font-size: 12px;
+}

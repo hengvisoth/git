@@ -1,0 +1,64 @@
+body{
+    height: 560px;
+    width: 360px;
+    color: white;
+    background-color: rgb(68, 67, 67)
+    
+}
+.Avatar{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.inputBox{
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(100, 98, 98);
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    border-color: rgb(100, 98, 98);;
+}
+.inputBox::-webkit-input-placeholder { /* Edge */
+    color: rgba(183, 183, 183, 1);
+}
+.addQuestionButton{
+    background-color: rgb(68, 67, 67);
+    border-width:0px;
+    border:none;
+    outline:none
+}
+.inputAnswer{
+    background-color: rgb(68, 67, 67);
+    border-width:0px;
+    border:none;
+    outline:none;
+    color: white;
+}
+.inputAnswer::placeholder{
+    color: rgb(172, 172, 172);
+}
+.timer{
+    width: 15%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    border-width:0px;
+    border:none;
+    outline:none
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+  .form-control:active,
+  .form-control:focus,
+  .form-control:focus:active {
+    background-color: #38393a;
+    border-color: none;
+    color: white;
+  }
